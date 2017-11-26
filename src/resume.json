@@ -1,0 +1,65 @@
+{
+  "main": {
+    "name": "Artem Kozyrev",
+    "position": "Junior Web Developer",
+    "picture": "./profilePhoto.jpg",
+    "email": "artem.kozyrev.dev@gmail.com",
+    "location": {
+      "countryCode": "UA",
+      "region": "Crimea",
+      "city": "Kerch"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "datexgo",
+        "icon": "./github.svg"
+      },
+      {
+        "network": "Twitter",
+        "username": "woozy_mu",
+        "icon": "./twitter.svg"
+      },
+      {
+        "network": "Skype",
+        "username": "Artem Kozyrev",
+        "icon": "./skype.svg"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "artem-kozyrev-0a1350148",
+        "icon": "./linkedin.svg"
+      },
+      {
+        "network": "Telegram",
+        "username": "Default34",
+        "icon": "./telegram.svg"
+      }
+    ]
+  },
+  "about": "Within last year i'm learning front end technologies, wich helps me create modern and functional interfaces. I read the technical literature of such authors as: Flanagan, McConnell, Cormen and others. I practice building front-end applications based on React.js with such librares as RxJs and Redux, you can check them on my Github page.",
+  "experience": "Graduated programming courses at <a href=\"http://paqmind.com/\">Paqmind</a> and helped to improve the content.",
+  "skills": [
+    {
+      "keywords": [
+        "Html5",
+        "Css3",
+        "ES6",
+        "React",
+        "Redux",
+        "RxJs",
+        "Webpack",
+        "Bootstrap",
+        "Git"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ukrainian State University of Railway Transport",
+      "area": "Logistics, transoprt managment and railway shipping",
+      "studyType": "Master's degree in",
+      "studyDate": "2011-2016"
+    }
+  ]
+}
