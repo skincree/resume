@@ -2,6 +2,7 @@
   "name": "smm-resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://skincree.github.io/resume/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^16.1.1",
@@ -13,6 +14,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }
