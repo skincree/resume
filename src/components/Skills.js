@@ -7,7 +7,7 @@ const Skills = props => {
 
   return (
     <section className="skills">
-      <h2 className="text-uppercase">Skills</h2>
+      <h2 className="text-uppercase">Навыки</h2>
       <ul className="skills-list list-inline">{getSkills}</ul>
     </section>
   )
