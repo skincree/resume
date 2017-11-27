@@ -4,8 +4,9 @@ const Education = props => {
   const getEducation = props.educationData.map((item, index) => {
     return (
       <div key={index}>
-        <span className="institution">{item.institution},</span> <span className="text">{item.area}</span>
-        <h4>{item.studyDate}</h4>
+        <strong><div className="institution">{item.institution}</div></strong>
+        <div className="text">{item.area}</div>
+        <div className="text">{item.studyDate}</div>
       </div>
     )
   })

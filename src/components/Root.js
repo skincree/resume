@@ -2,13 +2,14 @@ import React from 'react'
 import Skills from './Skills'
 import About from './About'
 import Profile from './Profile'
+import Projects from './Projects'
 import Experience from './Experience'
 import Education from './Education'
 import "bootstrap/dist/css/bootstrap.css"
 import '../styles/Layout.css'
 
 const Root = props => {
-  const {main, about, skills, experience, education} = props.profile
+  const {main, about, skills, experience, education, projects} = props.profile
   return <div className="container">
     <div className="row">
       <aside className="col-md-4">
@@ -23,6 +24,8 @@ const Root = props => {
           <Skills skillsData={skills}/>
           <div className="divider"></div>
           <Experience experienceData={experience}/>
+          <div className="divider"></div>
+          <Projects projectsData={projects}/>
           <div className="divider"></div>
           <Education educationData={education}/>
         </div>
